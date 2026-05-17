@@ -1,2 +1,63 @@
 # eco-timeline-compliance-compass
 An open-source web app translating dense climate data into localised postcode timelines for everyday Aussies. Frames sustainability through cost-of-living resilience while targeting macro-capital like super funds. Includes 'Compliance Compass'—an AI add-on automating regulatory guideline lookups for environmental pros.
+Functional Specification & Open-Source Project Brief
+Version: 1.3 (Final MVP Specification)
+Locale Baseline: South East Queensland, Australia
+Language Standard: Strict Australian English (zero z-variants)
+1. Project Overview & Mission
+Climate anxiety causes public paralysis because scientific data is trapped in dense academic PDFs, and corporate PR campaigns have tricked individuals into focusing on minor lifestyle sacrifices.
+This open-source web application serves as a spatial and chronological translator. It splits into two distinct, interconnected modules:
+1.	Eco-Timeline (Public Tier): Ingests peer-reviewed climate models, energy market data, and regional infrastructure metrics to present a postcode-specific timeline of a user's immediate neighbourhood. It demonstrates that true sustainability is a tool for personal economic resilience—saving households money while protecting the biosphere.
+2.	Compliance Compass (Professional Add-on): An advanced, AI-driven interface built specifically for environmental scientists, engineers, and consultants to automatise regulatory guideline lookups in the field.
+2. The Onboarding Framework (Eco-Timeline UI)
+Framework Objective, Inclusivity Baseline & Session Logic
+Before accessing localised postcode data, first-time users step through a brief, high-impact foundational presentation. This framework is explicitly designed as a collective "level-setter" to ensure all users are aligned around the verified context of anthropogenic climate change. The language and concepts have been deliberately translated into clear, accessible prose, stripping away dense academic jargon so that no one is excluded, alienated, or left out of the conversation. By establishing this shared baseline of scientific and historical literacy up front, the application ensures that subsequent local data is interpreted accurately, purposefully, and without personal defensiveness.
+Returning User Optimization: To maintain an optimal user experience and ensure the application does not become tedious or annoying, this introductory presentation is strictly unskippable for first-time users only. The system will utilise local browser storage (such as cookies or localStorage) to recognise returning devices. For any subsequent visits, a prominent "Skip Intro" or "Go Straight to Dashboard" option will be instantly available, allowing repeat users to bypass the presentation entirely and access live data immediately.
+The user interface features a semi-opaque background where a dynamic, drifting overlay of industrial coal soot flickers across the screen as they progress through the following four slides:
+Slide 1: The Historical Base Variable (The Industrial Inflection)
+• Headline: The Shifting Baseline
+• Copy: For 800,000 years, Earth's atmospheric carbon dioxide (\text{CO}_2) never breached 300 parts per million (ppm), oscillating predictably via natural orbital cycles. Based on long-term historical data from Antarctic ice cores (Vostok and EPICA Dome C), the planet should currently be entering a long-term cooling phase. Instead, the baseline has fractured. This application utilises NASA’s composite global climate dataset to track two massive historical inflection points:
+• 1750 (The Machine Shift): The dawn of the Industrial Revolution. Humanity begins transitioning from localised human labour to machine energy powered by black coal, triggering the first systemic rise in emissions.
+• 1950 (The Great Acceleration): The post-WWII boom. Exponential spikes in global manufacturing, interstate infrastructure, and widespread oil-reliance send the \text{CO}_2 curve vertical, skyrocketing past 420 ppm today.
+Slide 2: The Quantum Engine (The Science Refresher)
+• Headline: The Molecular Blanket
+• Copy: Because greenhouse gases are completely invisible, it is easy to forget they have physical substance. Think of a standard car exhaust: when you burn 1 litre of liquid petrol, it doesn't vanish. The engine breaks down the fuel's light carbon atoms and bonds them with heavy oxygen atoms from the air. That single 1-litre liquid tank expands into a staggering 2.3 kilograms of invisible \text{CO}_2 gas pumped directly into our atmosphere.
+• Our air is mostly Nitrogen (\text{N}_2) and Oxygen (\text{O}_2)—tight, symmetric pairs of atoms that light waves pass right through. But \text{CO}_2 and Methane (\text{CH}_4) form wider, asymmetric structures. When infrared heat trying to escape the Earth hits them, these molecules physically bend and vibrate, trapping the heat energy and radiating it back down like a thickening blanket.
+• The Velocity of Change: Earth’s climate has shifted before, but over deep geological time. Evolution relies on incredibly slow, chance mutations of DNA between generations, where a tiny, modified trait takes thousands of years to out-comp-ete previous populations. Today, we are forcing massive atmospheric shifts into a tiny 150-year window. The biological world cannot evolve at the speed of industrial combustion. This rapid disruption is leading to the loss of species at an estimated rate of up to 150 species per day, in turn furthering the loss of ecosystem services which keep food production costs manageable. Environmental accounting frameworks estimate that global economic losses from biodiversity degradation in primary production and agriculture will breach trillions of dollars internationally as topsoils, pollinators, and catchments collapse.
+Slide 3: The Deep Time Perspective (The Geological Slider)
+• Headline: The Scoreboard of Planetary History
+• Copy: To understand our current crisis, we have to look at the scoreboard of planetary history. Rapid climate shifts have historically spelled disaster for life.
+• Interactive Interface: A non-linear chronological slider featuring key milestones:
+• 4.5 Billion Years Ago: Earth forms. A volatile, molten landscape hostile to life.
+• 3.8 Billion Years Ago: The spark of first life. Simple, single-celled organisms emerge in ancient oceans.
+• 440 Million Years Ago: The Ordovician Extinction. The first of Earth's 5 major mass extinction events, driven by sudden global glaciation.
+• 300 Million Years Ago: The Carboniferous Period. Massive, dense swamp forests blanket the Earth. When they die, they form the massive coal beds we actively mine and burn today.
+• 252 Million Years Ago: The Permian Extinction ('The Great Dying'). Extreme volcanic eruptions cause catastrophic global warming, wiping out over 90% of all planetary life.
+• 200 to 66 Million Years Ago: The Age of Dinosaurs. Earth is significantly warmer, with no polar ice caps, allowing massive reptiles to dominate until a sudden asteroid impact triggers the 5th mass extinction.
+• 300,000 Years Ago: First appearance of cavemen and primitive hunter-gatherers navigating stable, natural glacial cycles.
+• 10,000 Years Ago: Modern humans establish agriculture and permanent civilisations within a highly stable climate.
+• ── [ZOOM IN BOX: THE MODERN INCH] ── A massive magnification panel at the extreme end of the timeline exposes the micro-history of the last 200 years: The advent of electricity, the invention of sliced bread, the discovery of commercial coffee—and the vertical spike of industrial emissions.
+Slide 4: The Systemic Leverage (The Call to Action)
+• Headline: The 6th Mass Extinction is Structural
+• Copy: Look closely at the history before you: every single previous mass extinction was triggered by external, unguided planetary or cosmic disasters. We are now on track for the 6th Mass Extinction Event, and for the first time in planetary history, a single species is entirely responsible: Humans, driven by anthropogenic climate change.
+• But let us be clear: you are not to blame for a fossil-fuel-dependent energy grid. In the late 1980s, petrochemical and fossil fuel entities heavily popularised household carbon footprints and plastic recycling symbols as a calculated psychological strategy to shift moral accountability away from industrial infrastructure and onto individual consumers. It is a clever, systemic shield.
+• Big industry and government need to lead this change, but we need you to put the pressure on them. We and the natural environment have been exploited long enough. This program strips away the greenwashing, shows you the exact, unvarnished timeline of your local ecosystem, and gives you the structural tools to apply pressure where it actually matters: macro-capital, corporate compliance, and the ballot box.
+3. Core Modules & System Architecture
+3.1 Module 1: The Eco-Timeline (Public Postcode Dashboard)
+When a user enters their postcode, the application aggregates risks across all environmental aspects (sea-level rise, temperature spikes, grid emissions, air quality, and local catchment health) to evaluate how regional climate changes intersect with their household economy.
+• The Localisation Engine: Maps local drivers and allows users to compare their suburb's metrics directly against other regional or utility-scale corridors (e.g., comparing Algester's residential rooftop solar profile against the Western Downs utility-scale energy hub).
+• The Household Resilience Layer (The Economics of Sustainability): Instead of preaching consumer sacrifice, the action layer presents sustainability as the ultimate financial defence mechanism against supply chain volatility:
+• Energy Security: Shifting to a home solar array paired with a residential battery storage node insulates the household from skyrocketing supplier costs and grid instability.
+• Transport Autonomy: Swapping to an Electric Vehicle (EV) charged directly from a household solar-and-battery node bypasses global petrol price spikes entirely, creating a zero-marginal-cost transport loop.
+• Waste & Food Abundance: Diverting domestic waste streams into advanced localised systems—such as home composting, hydroponics, or vertical farming layouts—prepares the household for predicted climate-driven food scarcity while insulating them from rising local government landfill fees and raised waste services in their area. This is the backbone of true sustainability: it is not only better for the planet, animals, and ecosystems—it is substantially cheaper for the individual.
+3.2 Module 2: The Compliance Compass (Professional Add-on)
+The Compliance Compass is a distinct, specialised module seamlessly integrated into the ecosystem but optimised specifically for environmental professionals (scientists, managers, consultants, and auditors).
+• The Automated AI Look-up Engine: By simply entering an area of interest or dropping a spatial pin, the module uses automated coding logic and AI parsing to instantly pull the most up-to-date regulatory guideline values across every environmental aspect for that specific jurisdiction:
+• Water & Catchments: Automated lookup of regional sub-catchment WQOs via the Queensland Water Monitoring Information Portal (WMIP) and EPP 2019 boundaries.
+• Air & Geology: Active parsing of the latest National Environment Protection Measure (NEPM) standards for ambient air and site contamination (including Acid Sulfate Soils risk layers via QLD Globe).
+• Acoustics & Odour: Spatial correlation of localised council planning schemes, industrial zoning constraints, and noise mitigation thresholds.
+• Field Deployment Capability: The module is structured to connect directly with digital field monitoring equipment and multi-parameter telemetry probes. Environmental scientists can upload live field data on-site, allowing the AI engine to execute an instantaneous compliance audit against active regulatory triggers in seconds, cutting down hours of manual office-bound report writing.
+4. Dual-Baseline Prototype Testing Ground
+To verify the data harvesting tools across both public and professional tiers, the code baseline is validated against two primary environments:
+1.	Corridor Alpha (Regional Utility Hub - Postcode 4413 - Chinchilla/Western Downs): Verifies backend tracking of utility solar, baseload black coal (Kogan Creek), and large-scale battery storage (Wandoan South BESS).
+2.	Corridor Beta (Metropolitan Residential - Postcode 4115 - Algester): Verifies suburban rooftop solar feedback loops (>78\% uptake per dwelling) against local Energex zone substation load profiles.
